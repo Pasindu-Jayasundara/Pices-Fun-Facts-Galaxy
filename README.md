@@ -2,6 +2,8 @@
 
 A interactive web application that generates random space-related facts and allows users to contribute their own facts to the collection.
 
+Live on: https://pasindu-jayasundara.github.io/Pices-Fun-Facts-Galaxy/
+
 ## Features
 
 - Random space fact generation
