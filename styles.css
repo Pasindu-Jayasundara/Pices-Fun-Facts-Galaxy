@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    width: 80%;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: #00ff9d;
+    margin-bottom: 2rem;
+}
+
+.fact-box {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    min-height: 100px;
+}
+
+button {
+    background: #00ff9d;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    color: #1a1a2e;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 1rem;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.02);
+    background: #00cc7d;
+}
+
+.add-fact-section {
+    margin-top: 2rem;
+}
+
+textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    background: rgba(255, 255, 255, 0.05);
+    color: white;
+    margin-bottom: 1rem;
+    resize: vertical;
+    min-height: 100px;
+}
+
+textarea::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
