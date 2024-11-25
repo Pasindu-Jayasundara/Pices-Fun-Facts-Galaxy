@@ -1,6 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    background: url('https://images.nasa.gov/images/spacecraft_and_telescope_in_space_hd.jpg') no-repeat center center fixed;
+    background-size: cover;
     min-height: 100vh;
     margin: 0;
     display: flex;
